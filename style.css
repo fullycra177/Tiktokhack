@@ -1,0 +1,40 @@
+body {
+  background-color: #121212;
+  color: #00ff88;
+  font-family: monospace;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  border: 2px dashed #00ff88;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.loading {
+  animation: blink 1s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #00ff88;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
